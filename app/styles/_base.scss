@@ -1,0 +1,10 @@
+@import 'colors';
+
+html { 
+  border: 8px solid $blue-dark;
+  min-height: 100%;
+}
+
+body {
+  background-color: $gray-light;
+}
