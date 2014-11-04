@@ -1,10 +1,12 @@
 @import 'colors';
+@import 'typography';
 
 * { box-sizing: border-box; }
 
 html { 
   border: 8px solid $blue-dark;
   min-height: 100%;
+  font-family: "Colfax"
 }
 
 body {
@@ -20,3 +22,5 @@ h5 {}
 p{}
 
 a{}
+
+img { max-width: 100%; }
